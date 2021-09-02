@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>chat</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+    <meta charset="UTF-8">
+    <script src = "/javascripts/message.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+
+    <div class="col">
+        <div class="row">
+            <h1>welcome <%= name %>!</h1>
+        </div>
+        <div class="row">
+
+            <ul id = "message-list"></ul>
+
+        </div>
+        <br><hr><br>
+        <div class="row">
+
+            <label for="message"> enter a message :</label>
+            <input class="form-control" type="text" id="message" name="message" ><br>
+            <button class="btn btn-primary" id="add-message" type="button">send a message</button>
+
+        </div>
+
+
+
+    </div>
+</div>
+
+</body>
+</html>

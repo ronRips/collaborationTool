@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>chat - log in</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+
+<div class="container-fluid">
+
+    <div class="col">
+      <div class="row">
+        <h1>log in</h1>
+      </div>
+      <div class="row">
+        <p>enter your name to connect</p>
+      </div>
+
+      <div class="row">
+
+        <form action="http://localhost:3000/message" method="post">
+
+          <label for="name">name: </label>
+          <input class="form-control" type="text" id="name" name="name" required><br>
+          <button class="btn btn-primary" id="submit">log in</button>
+
+        </form>
+
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
